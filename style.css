@@ -1,0 +1,28 @@
+th, tr, td{
+  width: 80px;
+  border: 2px solid black;
+}
+.main-div,.second-div{
+  padding: 3px;
+  width: fit-content;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#save-btn{
+  border: 1px solid black;
+  background-color: aqua;
+  width: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.delete-btn{
+  width: 100%;
+  background-color: red;
+}
